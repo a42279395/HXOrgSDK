@@ -18,14 +18,15 @@ Pod::Spec.new do |spec|
   spec.name         = "HXOrgSDK"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of HXOrgSDK."
+  #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  #spec.description  = <<-DESC
+      #             DESC
 
   spec.homepage     = "https://github.com/a42279395/HXOrgSDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -80,8 +81,12 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/a42279395/HXOrgSDK", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/a42279395/HXOrgSDK.git", :tag => "#{spec.version}" }
+  
+  
+    s.source       = { :http => "https://github.com/a42279395/HXOrgSDK/releases/download/0.0.1/HXOrgSDK.framework.zip" }
   spec.vendored_frameworks = "HXOrgSDK.framework"
+
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,8 +96,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
