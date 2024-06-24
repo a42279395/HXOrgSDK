@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "HXOrgSDK"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of HXOrgSDK."
-  #s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -68,7 +68,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "14.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "14.0"
+  
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -83,8 +83,10 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/a42279395/HXOrgSDK.git", :tag => "#{spec.version}" }
   
+  spec.ios.deployment_target = "14.0"
   
-    s.source       = { :http => "https://github.com/a42279395/HXOrgSDK/releases/download/0.0.1/HXOrgSDK.framework.zip" }
+  spec.source       = { :http => "https://github.com/a42279395/HXOrgSDK/releases/download/0.0.1/HXOrgSDK.framework.zip" }
+  
   spec.vendored_frameworks = "HXOrgSDK.framework"
 
 
