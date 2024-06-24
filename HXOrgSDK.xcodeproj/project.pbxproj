@@ -7,12 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79E234BE2C259EF300F6D023 /* HXOrgSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234BD2C259EF300F6D023 /* HXOrgSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		570DDA19C0773445476833DD /* Pods_HXOrgSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B74FFEDCB1445C0EFE3A19A /* Pods_HXOrgSDK.framework */; };
+		79E235012C259FF300F6D023 /* NSDate+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234C42C259FF300F6D023 /* NSDate+Category.h */; };
+		79E235022C259FF300F6D023 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234C52C259FF300F6D023 /* NSDate+Category.m */; };
+		79E235032C259FF300F6D023 /* NSDateFormatter+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234C62C259FF300F6D023 /* NSDateFormatter+Category.h */; };
+		79E235042C259FF300F6D023 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234C72C259FF300F6D023 /* NSDateFormatter+Category.m */; };
+		79E235052C259FF300F6D023 /* NSString+HXCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234C82C259FF300F6D023 /* NSString+HXCategory.h */; };
+		79E235062C259FF300F6D023 /* NSString+HXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234C92C259FF300F6D023 /* NSString+HXCategory.m */; };
+		79E235072C259FF300F6D023 /* HXDeptExtendListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234CB2C259FF300F6D023 /* HXDeptExtendListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235082C259FF300F6D023 /* HXDeptExtendListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234CC2C259FF300F6D023 /* HXDeptExtendListModel.m */; };
+		79E235092C259FF300F6D023 /* HXInviteCodeListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234CD2C259FF300F6D023 /* HXInviteCodeListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E2350A2C259FF300F6D023 /* HXInviteCodeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234CE2C259FF300F6D023 /* HXInviteCodeListModel.m */; };
+		79E2350B2C259FF300F6D023 /* HXOrgAdminListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234CF2C259FF300F6D023 /* HXOrgAdminListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E2350C2C259FF300F6D023 /* HXOrgAdminListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234D02C259FF300F6D023 /* HXOrgAdminListModel.m */; };
+		79E2350D2C259FF300F6D023 /* HXOrgAdminModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234D12C259FF300F6D023 /* HXOrgAdminModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E2350E2C259FF300F6D023 /* HXOrgAdminModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234D22C259FF300F6D023 /* HXOrgAdminModel.m */; };
+		79E2350F2C259FF300F6D023 /* HXOrgAuditListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234D32C259FF300F6D023 /* HXOrgAuditListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235102C259FF300F6D023 /* HXOrgAuditListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234D42C259FF300F6D023 /* HXOrgAuditListModel.m */; };
+		79E235112C259FF300F6D023 /* HXOrgClassListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234D52C259FF300F6D023 /* HXOrgClassListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235122C259FF300F6D023 /* HXOrgClassListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234D62C259FF300F6D023 /* HXOrgClassListModel.m */; };
+		79E235132C259FF300F6D023 /* HXOrgClassModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234D72C259FF300F6D023 /* HXOrgClassModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235142C259FF300F6D023 /* HXOrgClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234D82C259FF300F6D023 /* HXOrgClassModel.m */; };
+		79E235152C259FF300F6D023 /* HXOrgDeptHttpModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234D92C259FF300F6D023 /* HXOrgDeptHttpModel.h */; };
+		79E235162C259FF300F6D023 /* HXOrgDeptHttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234DA2C259FF300F6D023 /* HXOrgDeptHttpModel.m */; };
+		79E235172C259FF300F6D023 /* HXOrgDeptListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234DB2C259FF300F6D023 /* HXOrgDeptListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235182C259FF300F6D023 /* HXOrgDeptListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234DC2C259FF300F6D023 /* HXOrgDeptListModel.m */; };
+		79E235192C259FF300F6D023 /* HXOrgDeptModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234DD2C259FF300F6D023 /* HXOrgDeptModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E2351A2C259FF300F6D023 /* HXOrgDeptModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234DE2C259FF300F6D023 /* HXOrgDeptModel.m */; };
+		79E2351B2C259FF300F6D023 /* HXOrgExternalMemberHttpModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234DF2C259FF300F6D023 /* HXOrgExternalMemberHttpModel.h */; };
+		79E2351C2C259FF300F6D023 /* HXOrgExternalMemberHttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234E02C259FF300F6D023 /* HXOrgExternalMemberHttpModel.m */; };
+		79E2351D2C259FF300F6D023 /* HXOrgExternalMemberListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234E12C259FF300F6D023 /* HXOrgExternalMemberListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E2351E2C259FF300F6D023 /* HXOrgExternalMemberListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234E22C259FF300F6D023 /* HXOrgExternalMemberListModel.m */; };
+		79E2351F2C259FF300F6D023 /* HXOrgExternalMemberModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234E32C259FF300F6D023 /* HXOrgExternalMemberModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235202C259FF300F6D023 /* HXOrgExternalMemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234E42C259FF300F6D023 /* HXOrgExternalMemberModel.m */; };
+		79E235212C259FF300F6D023 /* HXOrgHttpModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234E52C259FF300F6D023 /* HXOrgHttpModel.h */; };
+		79E235222C259FF300F6D023 /* HXOrgHttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234E62C259FF300F6D023 /* HXOrgHttpModel.m */; };
+		79E235232C259FF300F6D023 /* HXOrgListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234E72C259FF300F6D023 /* HXOrgListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235242C259FF300F6D023 /* HXOrgListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234E82C259FF300F6D023 /* HXOrgListModel.m */; };
+		79E235252C259FF300F6D023 /* HXOrgMemberDeptObjectsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234E92C259FF300F6D023 /* HXOrgMemberDeptObjectsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235262C259FF300F6D023 /* HXOrgMemberDeptObjectsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234EA2C259FF300F6D023 /* HXOrgMemberDeptObjectsModel.m */; };
+		79E235272C259FF300F6D023 /* HXOrgMemberHttpModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234EB2C259FF300F6D023 /* HXOrgMemberHttpModel.h */; };
+		79E235282C259FF300F6D023 /* HXOrgMemberHttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234EC2C259FF300F6D023 /* HXOrgMemberHttpModel.m */; };
+		79E235292C259FF300F6D023 /* HXOrgMemberListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234ED2C259FF300F6D023 /* HXOrgMemberListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E2352A2C259FF300F6D023 /* HXOrgMemberListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234EE2C259FF300F6D023 /* HXOrgMemberListModel.m */; };
+		79E2352B2C259FF300F6D023 /* HXOrgMemberModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234EF2C259FF300F6D023 /* HXOrgMemberModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E2352C2C259FF300F6D023 /* HXOrgMemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234F02C259FF300F6D023 /* HXOrgMemberModel.m */; };
+		79E2352D2C259FF300F6D023 /* HXOrgModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234F12C259FF300F6D023 /* HXOrgModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E2352E2C259FF300F6D023 /* HXOrgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234F22C259FF300F6D023 /* HXOrgModel.m */; };
+		79E2352F2C259FF300F6D023 /* HXTelCodeListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234F32C259FF300F6D023 /* HXTelCodeListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235302C259FF300F6D023 /* HXTelCodeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234F42C259FF300F6D023 /* HXTelCodeListModel.m */; };
+		79E235312C259FF300F6D023 /* HXAFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234F62C259FF300F6D023 /* HXAFHTTPSessionManager.h */; };
+		79E235322C259FF300F6D023 /* HXAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234F72C259FF300F6D023 /* HXAFHTTPSessionManager.m */; };
+		79E235332C259FF300F6D023 /* HXAFNManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234F82C259FF300F6D023 /* HXAFNManager.h */; };
+		79E235342C259FF300F6D023 /* HXAFNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234F92C259FF300F6D023 /* HXAFNManager.m */; };
+		79E235352C259FF300F6D023 /* HXHttpErrorModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234FA2C259FF300F6D023 /* HXHttpErrorModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235362C259FF300F6D023 /* HXHttpErrorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234FB2C259FF300F6D023 /* HXHttpErrorModel.m */; };
+		79E235372C259FF300F6D023 /* HXORGSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234FD2C259FF300F6D023 /* HXORGSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E235382C259FF300F6D023 /* HXORGSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E234FE2C259FF300F6D023 /* HXORGSDK.m */; };
+		79E235392C259FF300F6D023 /* HXPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E234FF2C259FF300F6D023 /* HXPublicHeader.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4037C66C1BC079C2FE1BC31A /* Pods-HXOrgSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXOrgSDK.debug.xcconfig"; path = "Target Support Files/Pods-HXOrgSDK/Pods-HXOrgSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		6B74FFEDCB1445C0EFE3A19A /* Pods_HXOrgSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXOrgSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E234BA2C259EF300F6D023 /* HXOrgSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HXOrgSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79E234BD2C259EF300F6D023 /* HXOrgSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXOrgSDK.h; sourceTree = "<group>"; };
+		79E234C42C259FF300F6D023 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		79E234C52C259FF300F6D023 /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		79E234C62C259FF300F6D023 /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		79E234C72C259FF300F6D023 /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		79E234C82C259FF300F6D023 /* NSString+HXCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HXCategory.h"; sourceTree = "<group>"; };
+		79E234C92C259FF300F6D023 /* NSString+HXCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HXCategory.m"; sourceTree = "<group>"; };
+		79E234CB2C259FF300F6D023 /* HXDeptExtendListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDeptExtendListModel.h; sourceTree = "<group>"; };
+		79E234CC2C259FF300F6D023 /* HXDeptExtendListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDeptExtendListModel.m; sourceTree = "<group>"; };
+		79E234CD2C259FF300F6D023 /* HXInviteCodeListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXInviteCodeListModel.h; sourceTree = "<group>"; };
+		79E234CE2C259FF300F6D023 /* HXInviteCodeListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXInviteCodeListModel.m; sourceTree = "<group>"; };
+		79E234CF2C259FF300F6D023 /* HXOrgAdminListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgAdminListModel.h; sourceTree = "<group>"; };
+		79E234D02C259FF300F6D023 /* HXOrgAdminListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgAdminListModel.m; sourceTree = "<group>"; };
+		79E234D12C259FF300F6D023 /* HXOrgAdminModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgAdminModel.h; sourceTree = "<group>"; };
+		79E234D22C259FF300F6D023 /* HXOrgAdminModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgAdminModel.m; sourceTree = "<group>"; };
+		79E234D32C259FF300F6D023 /* HXOrgAuditListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgAuditListModel.h; sourceTree = "<group>"; };
+		79E234D42C259FF300F6D023 /* HXOrgAuditListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgAuditListModel.m; sourceTree = "<group>"; };
+		79E234D52C259FF300F6D023 /* HXOrgClassListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgClassListModel.h; sourceTree = "<group>"; };
+		79E234D62C259FF300F6D023 /* HXOrgClassListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgClassListModel.m; sourceTree = "<group>"; };
+		79E234D72C259FF300F6D023 /* HXOrgClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgClassModel.h; sourceTree = "<group>"; };
+		79E234D82C259FF300F6D023 /* HXOrgClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgClassModel.m; sourceTree = "<group>"; };
+		79E234D92C259FF300F6D023 /* HXOrgDeptHttpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgDeptHttpModel.h; sourceTree = "<group>"; };
+		79E234DA2C259FF300F6D023 /* HXOrgDeptHttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgDeptHttpModel.m; sourceTree = "<group>"; };
+		79E234DB2C259FF300F6D023 /* HXOrgDeptListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgDeptListModel.h; sourceTree = "<group>"; };
+		79E234DC2C259FF300F6D023 /* HXOrgDeptListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgDeptListModel.m; sourceTree = "<group>"; };
+		79E234DD2C259FF300F6D023 /* HXOrgDeptModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgDeptModel.h; sourceTree = "<group>"; };
+		79E234DE2C259FF300F6D023 /* HXOrgDeptModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgDeptModel.m; sourceTree = "<group>"; };
+		79E234DF2C259FF300F6D023 /* HXOrgExternalMemberHttpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgExternalMemberHttpModel.h; sourceTree = "<group>"; };
+		79E234E02C259FF300F6D023 /* HXOrgExternalMemberHttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgExternalMemberHttpModel.m; sourceTree = "<group>"; };
+		79E234E12C259FF300F6D023 /* HXOrgExternalMemberListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgExternalMemberListModel.h; sourceTree = "<group>"; };
+		79E234E22C259FF300F6D023 /* HXOrgExternalMemberListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgExternalMemberListModel.m; sourceTree = "<group>"; };
+		79E234E32C259FF300F6D023 /* HXOrgExternalMemberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgExternalMemberModel.h; sourceTree = "<group>"; };
+		79E234E42C259FF300F6D023 /* HXOrgExternalMemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgExternalMemberModel.m; sourceTree = "<group>"; };
+		79E234E52C259FF300F6D023 /* HXOrgHttpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgHttpModel.h; sourceTree = "<group>"; };
+		79E234E62C259FF300F6D023 /* HXOrgHttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgHttpModel.m; sourceTree = "<group>"; };
+		79E234E72C259FF300F6D023 /* HXOrgListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgListModel.h; sourceTree = "<group>"; };
+		79E234E82C259FF300F6D023 /* HXOrgListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgListModel.m; sourceTree = "<group>"; };
+		79E234E92C259FF300F6D023 /* HXOrgMemberDeptObjectsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgMemberDeptObjectsModel.h; sourceTree = "<group>"; };
+		79E234EA2C259FF300F6D023 /* HXOrgMemberDeptObjectsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgMemberDeptObjectsModel.m; sourceTree = "<group>"; };
+		79E234EB2C259FF300F6D023 /* HXOrgMemberHttpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgMemberHttpModel.h; sourceTree = "<group>"; };
+		79E234EC2C259FF300F6D023 /* HXOrgMemberHttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgMemberHttpModel.m; sourceTree = "<group>"; };
+		79E234ED2C259FF300F6D023 /* HXOrgMemberListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgMemberListModel.h; sourceTree = "<group>"; };
+		79E234EE2C259FF300F6D023 /* HXOrgMemberListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgMemberListModel.m; sourceTree = "<group>"; };
+		79E234EF2C259FF300F6D023 /* HXOrgMemberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgMemberModel.h; sourceTree = "<group>"; };
+		79E234F02C259FF300F6D023 /* HXOrgMemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgMemberModel.m; sourceTree = "<group>"; };
+		79E234F12C259FF300F6D023 /* HXOrgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXOrgModel.h; sourceTree = "<group>"; };
+		79E234F22C259FF300F6D023 /* HXOrgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXOrgModel.m; sourceTree = "<group>"; };
+		79E234F32C259FF300F6D023 /* HXTelCodeListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTelCodeListModel.h; sourceTree = "<group>"; };
+		79E234F42C259FF300F6D023 /* HXTelCodeListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTelCodeListModel.m; sourceTree = "<group>"; };
+		79E234F62C259FF300F6D023 /* HXAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		79E234F72C259FF300F6D023 /* HXAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		79E234F82C259FF300F6D023 /* HXAFNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAFNManager.h; sourceTree = "<group>"; };
+		79E234F92C259FF300F6D023 /* HXAFNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAFNManager.m; sourceTree = "<group>"; };
+		79E234FA2C259FF300F6D023 /* HXHttpErrorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHttpErrorModel.h; sourceTree = "<group>"; };
+		79E234FB2C259FF300F6D023 /* HXHttpErrorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXHttpErrorModel.m; sourceTree = "<group>"; };
+		79E234FD2C259FF300F6D023 /* HXORGSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXORGSDK.h; sourceTree = "<group>"; };
+		79E234FE2C259FF300F6D023 /* HXORGSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXORGSDK.m; sourceTree = "<group>"; };
+		79E234FF2C259FF300F6D023 /* HXPublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPublicHeader.h; sourceTree = "<group>"; };
+		CDE5EF5DC355D69D50C3093E /* Pods-HXOrgSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXOrgSDK.release.xcconfig"; path = "Target Support Files/Pods-HXOrgSDK/Pods-HXOrgSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -20,17 +136,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570DDA19C0773445476833DD /* Pods_HXOrgSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23ABA9158CCAF8721675B6A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4037C66C1BC079C2FE1BC31A /* Pods-HXOrgSDK.debug.xcconfig */,
+				CDE5EF5DC355D69D50C3093E /* Pods-HXOrgSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E9D63B12D6FF1E217C5E8B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B74FFEDCB1445C0EFE3A19A /* Pods_HXOrgSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79E234B02C259EF300F6D023 = {
 			isa = PBXGroup;
 			children = (
 				79E234BC2C259EF300F6D023 /* HXOrgSDK */,
 				79E234BB2C259EF300F6D023 /* Products */,
+				23ABA9158CCAF8721675B6A8 /* Pods */,
+				3E9D63B12D6FF1E217C5E8B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,9 +181,97 @@
 		79E234BC2C259EF300F6D023 /* HXOrgSDK */ = {
 			isa = PBXGroup;
 			children = (
-				79E234BD2C259EF300F6D023 /* HXOrgSDK.h */,
+				79E235002C259FF300F6D023 /* Sdk */,
 			);
 			path = HXOrgSDK;
+			sourceTree = "<group>";
+		};
+		79E234CA2C259FF300F6D023 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				79E234C42C259FF300F6D023 /* NSDate+Category.h */,
+				79E234C52C259FF300F6D023 /* NSDate+Category.m */,
+				79E234C62C259FF300F6D023 /* NSDateFormatter+Category.h */,
+				79E234C72C259FF300F6D023 /* NSDateFormatter+Category.m */,
+				79E234C82C259FF300F6D023 /* NSString+HXCategory.h */,
+				79E234C92C259FF300F6D023 /* NSString+HXCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		79E234F52C259FF300F6D023 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79E234CB2C259FF300F6D023 /* HXDeptExtendListModel.h */,
+				79E234CC2C259FF300F6D023 /* HXDeptExtendListModel.m */,
+				79E234CD2C259FF300F6D023 /* HXInviteCodeListModel.h */,
+				79E234CE2C259FF300F6D023 /* HXInviteCodeListModel.m */,
+				79E234CF2C259FF300F6D023 /* HXOrgAdminListModel.h */,
+				79E234D02C259FF300F6D023 /* HXOrgAdminListModel.m */,
+				79E234D12C259FF300F6D023 /* HXOrgAdminModel.h */,
+				79E234D22C259FF300F6D023 /* HXOrgAdminModel.m */,
+				79E234D32C259FF300F6D023 /* HXOrgAuditListModel.h */,
+				79E234D42C259FF300F6D023 /* HXOrgAuditListModel.m */,
+				79E234D52C259FF300F6D023 /* HXOrgClassListModel.h */,
+				79E234D62C259FF300F6D023 /* HXOrgClassListModel.m */,
+				79E234D72C259FF300F6D023 /* HXOrgClassModel.h */,
+				79E234D82C259FF300F6D023 /* HXOrgClassModel.m */,
+				79E234D92C259FF300F6D023 /* HXOrgDeptHttpModel.h */,
+				79E234DA2C259FF300F6D023 /* HXOrgDeptHttpModel.m */,
+				79E234DB2C259FF300F6D023 /* HXOrgDeptListModel.h */,
+				79E234DC2C259FF300F6D023 /* HXOrgDeptListModel.m */,
+				79E234DD2C259FF300F6D023 /* HXOrgDeptModel.h */,
+				79E234DE2C259FF300F6D023 /* HXOrgDeptModel.m */,
+				79E234DF2C259FF300F6D023 /* HXOrgExternalMemberHttpModel.h */,
+				79E234E02C259FF300F6D023 /* HXOrgExternalMemberHttpModel.m */,
+				79E234E12C259FF300F6D023 /* HXOrgExternalMemberListModel.h */,
+				79E234E22C259FF300F6D023 /* HXOrgExternalMemberListModel.m */,
+				79E234E32C259FF300F6D023 /* HXOrgExternalMemberModel.h */,
+				79E234E42C259FF300F6D023 /* HXOrgExternalMemberModel.m */,
+				79E234E52C259FF300F6D023 /* HXOrgHttpModel.h */,
+				79E234E62C259FF300F6D023 /* HXOrgHttpModel.m */,
+				79E234E72C259FF300F6D023 /* HXOrgListModel.h */,
+				79E234E82C259FF300F6D023 /* HXOrgListModel.m */,
+				79E234E92C259FF300F6D023 /* HXOrgMemberDeptObjectsModel.h */,
+				79E234EA2C259FF300F6D023 /* HXOrgMemberDeptObjectsModel.m */,
+				79E234EB2C259FF300F6D023 /* HXOrgMemberHttpModel.h */,
+				79E234EC2C259FF300F6D023 /* HXOrgMemberHttpModel.m */,
+				79E234ED2C259FF300F6D023 /* HXOrgMemberListModel.h */,
+				79E234EE2C259FF300F6D023 /* HXOrgMemberListModel.m */,
+				79E234EF2C259FF300F6D023 /* HXOrgMemberModel.h */,
+				79E234F02C259FF300F6D023 /* HXOrgMemberModel.m */,
+				79E234F12C259FF300F6D023 /* HXOrgModel.h */,
+				79E234F22C259FF300F6D023 /* HXOrgModel.m */,
+				79E234F32C259FF300F6D023 /* HXTelCodeListModel.h */,
+				79E234F42C259FF300F6D023 /* HXTelCodeListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79E234FC2C259FF300F6D023 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				79E234F62C259FF300F6D023 /* HXAFHTTPSessionManager.h */,
+				79E234F72C259FF300F6D023 /* HXAFHTTPSessionManager.m */,
+				79E234F82C259FF300F6D023 /* HXAFNManager.h */,
+				79E234F92C259FF300F6D023 /* HXAFNManager.m */,
+				79E234FA2C259FF300F6D023 /* HXHttpErrorModel.h */,
+				79E234FB2C259FF300F6D023 /* HXHttpErrorModel.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		79E235002C259FF300F6D023 /* Sdk */ = {
+			isa = PBXGroup;
+			children = (
+				79E234CA2C259FF300F6D023 /* Category */,
+				79E234F52C259FF300F6D023 /* Model */,
+				79E234FC2C259FF300F6D023 /* NetWork */,
+				79E234FD2C259FF300F6D023 /* HXORGSDK.h */,
+				79E234FE2C259FF300F6D023 /* HXORGSDK.m */,
+				79E234FF2C259FF300F6D023 /* HXPublicHeader.h */,
+			);
+			path = Sdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -57,7 +281,35 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E234BE2C259EF300F6D023 /* HXOrgSDK.h in Headers */,
+				79E235172C259FF300F6D023 /* HXOrgDeptListModel.h in Headers */,
+				79E235192C259FF300F6D023 /* HXOrgDeptModel.h in Headers */,
+				79E235112C259FF300F6D023 /* HXOrgClassListModel.h in Headers */,
+				79E2352B2C259FF300F6D023 /* HXOrgMemberModel.h in Headers */,
+				79E235212C259FF300F6D023 /* HXOrgHttpModel.h in Headers */,
+				79E235052C259FF300F6D023 /* NSString+HXCategory.h in Headers */,
+				79E2351F2C259FF300F6D023 /* HXOrgExternalMemberModel.h in Headers */,
+				79E235132C259FF300F6D023 /* HXOrgClassModel.h in Headers */,
+				79E235352C259FF300F6D023 /* HXHttpErrorModel.h in Headers */,
+				79E235252C259FF300F6D023 /* HXOrgMemberDeptObjectsModel.h in Headers */,
+				79E2350B2C259FF300F6D023 /* HXOrgAdminListModel.h in Headers */,
+				79E2352D2C259FF300F6D023 /* HXOrgModel.h in Headers */,
+				79E235272C259FF300F6D023 /* HXOrgMemberHttpModel.h in Headers */,
+				79E2351D2C259FF300F6D023 /* HXOrgExternalMemberListModel.h in Headers */,
+				79E235092C259FF300F6D023 /* HXInviteCodeListModel.h in Headers */,
+				79E235332C259FF300F6D023 /* HXAFNManager.h in Headers */,
+				79E235152C259FF300F6D023 /* HXOrgDeptHttpModel.h in Headers */,
+				79E235312C259FF300F6D023 /* HXAFHTTPSessionManager.h in Headers */,
+				79E2351B2C259FF300F6D023 /* HXOrgExternalMemberHttpModel.h in Headers */,
+				79E235032C259FF300F6D023 /* NSDateFormatter+Category.h in Headers */,
+				79E235232C259FF300F6D023 /* HXOrgListModel.h in Headers */,
+				79E235012C259FF300F6D023 /* NSDate+Category.h in Headers */,
+				79E235392C259FF300F6D023 /* HXPublicHeader.h in Headers */,
+				79E235072C259FF300F6D023 /* HXDeptExtendListModel.h in Headers */,
+				79E2350D2C259FF300F6D023 /* HXOrgAdminModel.h in Headers */,
+				79E2350F2C259FF300F6D023 /* HXOrgAuditListModel.h in Headers */,
+				79E235292C259FF300F6D023 /* HXOrgMemberListModel.h in Headers */,
+				79E235372C259FF300F6D023 /* HXORGSDK.h in Headers */,
+				79E2352F2C259FF300F6D023 /* HXTelCodeListModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79E234C12C259EF300F6D023 /* Build configuration list for PBXNativeTarget "HXOrgSDK" */;
 			buildPhases = (
+				A016468FF0685C51B3951E24 /* [CP] Check Pods Manifest.lock */,
 				79E234B52C259EF300F6D023 /* Headers */,
 				79E234B62C259EF300F6D023 /* Sources */,
 				79E234B72C259EF300F6D023 /* Frameworks */,
@@ -124,11 +377,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A016468FF0685C51B3951E24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXOrgSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79E234B62C259EF300F6D023 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E235322C259FF300F6D023 /* HXAFHTTPSessionManager.m in Sources */,
+				79E2352A2C259FF300F6D023 /* HXOrgMemberListModel.m in Sources */,
+				79E235122C259FF300F6D023 /* HXOrgClassListModel.m in Sources */,
+				79E2352E2C259FF300F6D023 /* HXOrgModel.m in Sources */,
+				79E2351E2C259FF300F6D023 /* HXOrgExternalMemberListModel.m in Sources */,
+				79E235182C259FF300F6D023 /* HXOrgDeptListModel.m in Sources */,
+				79E235082C259FF300F6D023 /* HXDeptExtendListModel.m in Sources */,
+				79E2350A2C259FF300F6D023 /* HXInviteCodeListModel.m in Sources */,
+				79E235062C259FF300F6D023 /* NSString+HXCategory.m in Sources */,
+				79E235162C259FF300F6D023 /* HXOrgDeptHttpModel.m in Sources */,
+				79E2350E2C259FF300F6D023 /* HXOrgAdminModel.m in Sources */,
+				79E235242C259FF300F6D023 /* HXOrgListModel.m in Sources */,
+				79E235102C259FF300F6D023 /* HXOrgAuditListModel.m in Sources */,
+				79E235342C259FF300F6D023 /* HXAFNManager.m in Sources */,
+				79E235302C259FF300F6D023 /* HXTelCodeListModel.m in Sources */,
+				79E235202C259FF300F6D023 /* HXOrgExternalMemberModel.m in Sources */,
+				79E2352C2C259FF300F6D023 /* HXOrgMemberModel.m in Sources */,
+				79E235262C259FF300F6D023 /* HXOrgMemberDeptObjectsModel.m in Sources */,
+				79E235362C259FF300F6D023 /* HXHttpErrorModel.m in Sources */,
+				79E2351A2C259FF300F6D023 /* HXOrgDeptModel.m in Sources */,
+				79E235022C259FF300F6D023 /* NSDate+Category.m in Sources */,
+				79E235282C259FF300F6D023 /* HXOrgMemberHttpModel.m in Sources */,
+				79E235142C259FF300F6D023 /* HXOrgClassModel.m in Sources */,
+				79E235222C259FF300F6D023 /* HXOrgHttpModel.m in Sources */,
+				79E2351C2C259FF300F6D023 /* HXOrgExternalMemberHttpModel.m in Sources */,
+				79E2350C2C259FF300F6D023 /* HXOrgAdminListModel.m in Sources */,
+				79E235042C259FF300F6D023 /* NSDateFormatter+Category.m in Sources */,
+				79E235382C259FF300F6D023 /* HXORGSDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -246,7 +552,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -259,29 +565,49 @@
 		};
 		79E234C22C259EF300F6D023 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4037C66C1BC079C2FE1BC31A /* Pods-HXOrgSDK.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
 				DEVELOPMENT_TEAM = BQQNEJGRGB;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/Sdk",
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYModel/YYModel.framework/Headers\"",
+					"$(PODS_ROOT)",
+				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = HXOrgSDK.com.HXOrgSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,29 +615,49 @@
 		};
 		79E234C32C259EF300F6D023 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE5EF5DC355D69D50C3093E /* Pods-HXOrgSDK.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
 				DEVELOPMENT_TEAM = BQQNEJGRGB;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYModel/YYModel.framework/Headers\"",
+					"$(inherited)/Sdk",
+					"$(PODS_ROOT)",
+				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = HXOrgSDK.com.HXOrgSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
